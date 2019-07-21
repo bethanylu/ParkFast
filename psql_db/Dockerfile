@@ -1,0 +1,6 @@
+FROM postgres:12
+EXPOSE 5432
+ENV POSTGRES_DB=parkfast
+ENV POSTGRES_USER=parkfast
+ENV POSTGRES_PASSWORD=parkfast
+ENV PGDATA=/app/data
